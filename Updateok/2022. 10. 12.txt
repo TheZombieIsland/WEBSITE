@@ -1,0 +1,29 @@
+- mostmár a pálma fáknak is van normális árnyéka.
+- kevesebb szikla lett a mapon.
+- "NavMeshBoundsVolume" Törölve (semmit se csinált a mapon akkor minek legyen ott.)
+- csónak Collision-je újrakészítve.
+- Pálma fa Collision-je újrakészítve.
+- Map Újrafestve.
+- Weboldal Létrehozva.
+- Játékosnév Ideiglesen eltávolítva. (pár napig)
+- Id hozzáadva a menühbe. (jelenleg nem funkciónál)
+- Javítva ha a multiplayer nem találna futó szervert.
+- javítva ha nem sikerülne szervert létrehozni.
+- nem funkciónáló vagy hibás gombok törölve.
+- Lámpás Static-ról Station-re állítva.
+- Crypto Bugjai Javítva.
+- HP színe megváltoztatva.
+- Untitled_Grass, Untitled_Rocks, Untitled_Terrain Törölve. (nem voltak használva ezért lettek törölve)
+- FPWeapon törölve. (alapból benne van az UE4 ben)
+- Geometry Mappa törölve.
+- menu_sharedassets Törölve. (nincs landscape ezért nem szükséges a menu_sharedassets)
+- mapon nem használt fák törölve.
+- DirectionalLight 1,7 lux ra állítva.
+- Intro Törölve. (új intró lessz)
+- A kés mostmár nem vesz el nagy mennyiségü fpst. (optimalizálva)
+- Shapes Mappa törölve. (felesleges volt.)
+- untitled_palm_leaves optimalizálva.
+
+
+Játék Mérete : 4,98GB 
+Játék Verzió : 0.1

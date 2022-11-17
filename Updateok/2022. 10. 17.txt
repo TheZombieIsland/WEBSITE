@@ -1,0 +1,32 @@
+- Weboldal Módosítva.
+- Árnyékok Optimalizálva.
+- Map Optimalizálva.
+- Koponya Optimalizálva.
+- Torch Optimalizálva. (menüben)
+- Menü Optimalizálva.
+- Mostandtól a Multiplayer Szerver Létrehozásához várni kell 0,3 másodpercet.
+- Kilépés_a_menübe Widget Módosítva.
+- Új FPS rendszer.
+- Tábortűz törölve. (ideiglenesen)
+- A Koponya mostmár jobban látszik a menüben.
+- Sziklák Optimalizálva.
+- Bugok Javítva.
+  
+  Játék Mérete : 5,42GB
+  Játék Verzió : 0.3
+
+
+  Weboldal Frissítések:
+
+- A Világos Mód Javítva.
+- Sötét Mód Hozzáadva.
+- Custom ScrollBar Hozzáadva.
+- Internet Sebesség Teszt Hozzáadva.
+- Bugok Javítva.
+- Főoldal Módosítva.
+- Játék Frissítések Módosítva.
+- Játék letöltése Módosítva.
+- Mostmár Sorrendben Vannak a Frissítések.
+
+  Weboldal Mérete : 101 KB
+  Weboldal Verzió : 0.5

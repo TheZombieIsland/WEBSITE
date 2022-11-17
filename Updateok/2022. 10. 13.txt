@@ -1,0 +1,38 @@
+- Weboldal Módosítva.
+- koponya texturája javítva. 
+- seashell static-ról station-re állítva.
+- ExponentialHeightFog mostmár a menüben van.
+- DirectionalLight törölve a menüből. (eleve 0-án volt ezért lett törölve)
+- Button_Design törölve. (nem volt használva)
+- Verzió_Displayer Módosítva a menüben.
+- Menüben levő feliratok Render Opacity-je 0.9-re állítva.
+- FPS_Displayer Delay-e 0.05-ről 0.07-re állítva. (több ideig látható az FPS szám mind korábban)
+- Brown_Dirt Material Létrehozva.
+- Ground Material Létrehozva.
+- Wood_Normal_Map Létrehozva. (hajóhoz kell)
+- Wood1 törölve.
+- Material, Material_001, Material_002 Törölve. (nem voltak használva)
+- BP_BuoyancyExample Törölve.
+- Inventory Default_Skin Kép Törölve. (változtatva lessz)
+- Item Shop Mappa Áthelyezve a Menü mappába.
+- betöltő képernyő Módosítva.
+- FirstPersonCharacter Módosítva.
+- SkyAtmosphere, SkyLight törölve a menüből (+ FPS)
+- Optimalizálás.
+- NVIDIA Reflex Plugin Hozzáadva .
+- Smooth Frame Rate Kikapcsolva.
+- A Mapon minden Static-ra állítva (+ FPS)
+- Skylight, SkyAtmosphere Hozzáadva a Maphoz.
+- Grafika Módosítva.
+- Óceán Hullámok hozzáadva. (nem végleges kinézet)
+- DirectionalLight 1,8 Lux-ra állítva.
+- Map Módosítva.
+- Bugok Javítva.
+- Fák Hozzadása.
+- Árnyékok Javítva.
+
+Magas Grafikán Optimalizálás elötti FPS: 96
+Magas Grafikán Optimalizálás Utáni FPS: 224
+
+Játék Mérete : 5,15GB 
+Játék Verzió : 0.2

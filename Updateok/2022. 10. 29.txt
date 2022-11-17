@@ -1,0 +1,5 @@
+- Weboldal Módosítva
+- snd1 textura Módosítva
+- Kés ideiglenesen törölve (fejlesztés végett)
+- Árnyékok Grafikája Módosítva (Közepes, Magas Grafikán)
+- Map Módosítva

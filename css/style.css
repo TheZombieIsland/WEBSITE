@@ -1,0 +1,344 @@
+
+    * {
+        font-family: montserrat, sans-serif;
+        box-sizing: border-box;
+      }
+
+
+      
+      
+    .Download{
+      float: center;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+      font-family: montserrat, sans-serif
+    }
+
+    .Download a{
+        appearance: none;
+      background: none;
+      border: none;
+      outline: none;
+
+
+      padding: 20px 40px;
+      border-radius: 8px;
+      color: #212121;
+      font-size: 28px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.4s;
+        color: #11521c;
+      border: 3px solid #11521c;
+      background-image: linear-gradient(to right, transparent 50%, #11521c 50%);
+      background-size: 200%;
+      background-position: 0%;
+      text-align: center;
+      float: center;
+      align-items: center;
+      align-self: center;
+    }
+
+
+
+    .Download:hover a{
+        
+        color: #FFF;
+        background-position: 100%;
+    }
+
+    .alap {
+      
+      float: center;
+      width: auto;
+    padding: 2rem 0 1rem 0;
+    margin: 20px auto;
+    border-radius: 120px;
+    text-align: center;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1cm;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+
+
+    .Verzio h1{
+      text-align: center;
+      float: center;
+      align-items: center;
+      align-self: center;
+    }
+
+    .datareload {
+      font-family: 'impact';
+      font-size: 0mm;
+      border-radius: 10px ;
+      color: black;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+      
+    }
+
+
+    .EgyébGombok {
+      font-size: 6mm;
+      border-radius: 120px ;
+      color: white;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center ;
+      margin-top: 20px;
+      
+
+    }
+
+
+
+
+
+    .Frissitesek-btn:hover{
+      color: rgb(148, 148, 148);
+    }
+    .jatek-letoltese-btn:hover {
+      color: rgb(148, 148, 148);
+    }
+    .fooldal-btn:hover {
+      color: rgb(148, 148, 148);
+    }
+
+    .jatekfrissitesek {
+      float: center;
+      width: auto;
+    margin: auto;
+    text-align: center;
+    text-align: center;
+    font-size: 5mm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+    .YTLINK a{
+      font-family: 'impact';
+      font-size: 7mm;
+      border-radius: 10px ;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+    }
+    .YTLINK {
+      font-family: 'impact';
+      font-size: 7mm;
+      border-radius: 10px ;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+    }
+    .YTLINK a{
+      font-family: 'impact';
+      font-size: 7mm;
+      border-radius: 10px ;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+    }
+
+    .YT_DANI098:hover{
+      color: rgb(148, 148, 148);
+    }
+
+    .YT_UZX:hover {
+      color: rgb(148, 148, 148);
+    }
+
+    .alapkep {
+      font-family: 'impact';
+      font-size: 7mm;
+      border-radius: 10px ;
+      color: black;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+    }
+
+
+    .alapkep-img {
+      margin-top: -35px;
+      color: black;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+    }
+    .hamarosan-elerheto {
+      color: rgb(255, 255, 255);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+
+    }
+    .hamarosan-elerheto h1{
+      font-size: 12mm;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-sizing: border-box;
+    }
+
+
+    .loader{
+      margin-top: -50px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+
+    }
+    .loader h1{
+      margin-top: -50px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      float: center;
+      text-align: center;
+
+    }
+
+
+    .disppear{
+      animation: vanish 3s forwards;
+      
+    }
+    @keyframes vanish {
+      100%{
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+    .notvisible {
+      font-size: 0mm;
+    }
+    .vertical-scroll::-webkit-scrollbar {
+      width: 2em;
+      height: 1em;
+    }
+
+    .vertical-scroll::-webkit-scrollbar-track {
+      background: hsl(120 75% 50% / 1);
+      border-radius: 100vw;
+      margin-block: 0.5em;
+    }
+
+    .vertical-scroll::-webkit-scrollbar-thumb {
+      background: hsl(120 100% 20% / 1);
+      border: 0.25em solid hsl(120 75% 50% / 1);
+      border-radius: 100vw;
+    }
+
+    .vertical-scroll::-webkit-scrollbar-thumb:hover {
+      background: hsl(120 100% 10% / 1);
+    }
+
+    /* Vertical scrolling */
+
+    .vertical-scroll {
+      display: grid;
+      gap: 0.5em;
+      grid-auto-flow: column;
+      grid-auto-columns: 75%;
+      padding: 0.5em;
+      overflow-x: scroll;
+      background: #d3fdbe;
+      border-radius: 1em;
+      position: relative;
+    }
+
+    .vertical-scroll > div {
+      background: hsl(0 0% 90%);
+      border-radius: 1em;
+      border: 0.5em solid hsl(0 0% 60%);
+      padding: 1em;
+    }
+
+    .wrapper{
+  
+      width: 360px;
+      padding: 2rem 0 1rem 0;
+      margin: 50px auto;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    }
+    h1{
+      font-size: 1 5rem;
+      color: #ffffff;
+      font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif
+    }
+    form input{
+      width: 85%;
+      outline: none;
+      border: none;
+      background: #ffffff ;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      border-radius: 120px;
+    }
+    .recover{
+      text-align: right;
+      font-size: 0.8rem;
+      margin: 0.2rem 1.7rem 0 0;
+    }
+    .recover a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .gombsubmit{
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      padding: 8px 0;
+      border-radius: 120px;
+      outline: none;
+      border: none;
+      width: 85%;
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      font-family: cursive
+      
+      
+    }
+    .textform {
+     margin-bottom: 1.7rem;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+    

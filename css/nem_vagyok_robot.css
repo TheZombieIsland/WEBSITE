@@ -8,7 +8,7 @@
 	width: 170px;
 	height: 72px;
 	font-size: 37px;
-	background-color: #505050;;
+	background-color: #3d3d3d;
 	padding: 5px;
 	border: none;
 	letter-spacing: 1px;
@@ -19,7 +19,7 @@
 }
 #refresh {
 	float: left;
-	background-color: #505050;
+	background-color: #3d3d3d;
 	height: 82px;
 	border-radius: 0 5px 5px 0;
 }
@@ -31,12 +31,13 @@
 	width: 170px;
 	height: 70px;
 	font-size: 37px;
-	background-color: #252521;
+	background-color: #3d3d3d;
 	border: none;
 	margin-left: 10px;
 	border-radius: 5px;
 	padding: 5px;
 	color: #D58A1E;
+	font-family: 'Courier New', Courier, monospace;
 }
 .contain button {
 	padding: 8px 20px;

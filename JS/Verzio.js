@@ -14,7 +14,7 @@
 
     const verzio = {
       v   : " 0.8",
-      utoljaraFrissitve: " 2022. 11.23"
+      utoljaraFrissitve: " 2022. 11.24"
       
   };
 

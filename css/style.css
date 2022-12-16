@@ -341,4 +341,36 @@
     color: #ffffff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     }
+
+
+    .bejelentkezes {
+      text-align: right;
+      margin-top: -0cm;
+      font-size: 6mm;
+      border-radius: 120px ;
+      color: white;
+      text-align: right;
+      justify-content: right;
+      align-items: right;
+      float: right;
+      text-align: right ;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+    }
+
+    .bejelentkezes a{
+      text-align: right;
+      margin-top: -0cm;
+      font-size: 6mm;
+      border-radius: 120px ;
+      color: white;
+      text-align: right;
+      justify-content: right;
+      align-items: right;
+      float: right;
+      text-align: right ;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+      
+    }
     

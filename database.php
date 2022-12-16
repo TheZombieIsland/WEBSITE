@@ -1,6 +1,6 @@
 <?php
 
-$host = "thezombieisland.github.io/WEBSITE";
+$host = "localhost";
 $dbname = "bejelentkezes regisztracio";
 $username = "TheZombieIsland";
 $password = "15954535658575Ya";

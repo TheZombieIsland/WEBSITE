@@ -1,11 +1,11 @@
 <?php
 
-$host = "192.168.240.1";
+
 $dbname = "bejelentkezes regisztracio";
 $username = "root";
 $password = "";
 
-$mysqli = new mysqli(hostname: $host,
+$mysqli = new mysqli(
                      username: $username,
                      password: $password,
                      database: $dbname);

@@ -1,6 +1,6 @@
 <?php
 
-$host = "255.255.254.0";
+$host = "192.168.240.1";
 $dbname = "bejelentkezes regisztracio";
 $username = "root";
 $password = "";

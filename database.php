@@ -1,9 +1,9 @@
 <?php
 
-$host = "::1";
+$host = "";
 $dbname = "bejelentkezes regisztracio";
-$username = "root";
-$password = "";
+$username = "TheZombieIsland";
+$password = "15954535658575Ya";
 
 $mysqli = new mysqli(hostname: $host,
                      username: $username,

@@ -18,17 +18,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Zombie Island </title>
+    <title>Játék Frissítések</title>
     <link rel="shortcut icon" href="Képek/The Zombie Island icon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/background.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
-    <script src="/js/validation.js" defer></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-
+    
 </head>
 <body>
   <div class="menu">
@@ -59,18 +57,15 @@
     </nav>
   </div>
 <br><br><br><br>
-    <div class="loader">
-          <img src="Képek/loading.gif" alt="" width="180">
-          <h2 translate="yes">Betöltés...</h2></div>
-          <script src="JS/load.js" charset="utf-8"></script>
+<div class="loader">
+          
+  <img src="Képek/loading.gif" alt="" width="180">
+  <h2 translate="yes">Oldal Betöltése...</h2></div>
+  <script src="JS/load.js" charset="utf-8"></script>
 
-
-        
-    
-    
-
-   <!-- DARK MODE (már nem az) -->
-   <style>
+   
+  <!-- DARK MODE (már nem az) -->
+  <style>
        
     main{
       margin: 5vh 15%;
@@ -257,8 +252,9 @@
         content.classList.toggle('night');
     })
 </script>
-   <style>
-    
+  <style>
+
+
 html::-webkit-scrollbar {
   background-color: transparent;
     width: 15px;
@@ -287,110 +283,27 @@ html::-webkit-scrollbar {
     scroll-behavior: smooth;
   }
 
-    
-  
-  
+
   </style>
 
-<script>Notification.requestPermission().then((permission)=>{})</script>
-    <h1 id="count" class="notvisible">0</h1>
-    
-    <div class="Verzio">
-      
-    <h1 class="datareload" id="datareload" ></h1>
-    <h1 id="Verzió" ></h1>
-    <h1 id="Dátum"></h1></div>
-    <script src="JS/Verzio.js"></script>
-<!--<script src="JS/date.js"></script>-->
+  
+</div>
+            <br><br>
+            <div class="YTLINK">
 
-  <div class="wrapper">
-  <form
-    action="https://formspree.io/f/mlevovzb"
-    method="POST">
-    <label>
-      <br><div class="textform" lang="HU" translate="yes">Értékelje a Weboldalt</div>
-      <input type="number" name="Értékelés" required>
-      
-    </label>
-    <label>
-      <br><div class="textform" lang="HU" translate="yes">Név</div>
-      <input type="text" name="Név" required>
-      
-    </label>
-    <label>
-      <br><div class="textform" lang="HU" translate="yes">Megjegyzés</div>
-      <input type="text" name="Megjegyzés" required>
-      
-    </label>
-
-    <button type="submit" class="gombsubmit" lang="HU" translate="yes">Küldés</button>
-  </form>
-  </div>
-
-
-<script>
-
-  const countEl = document.getElementById('count');
-
-updateVisitCount();
-
-function updateVisitCount() {
-	fetch('https://api.countapi.xyz/update/UZX/youtubechannel?amount=1')
-	.then(res => res.json())
-	.then(res => {
-		countEl.innerHTML = res.value;
-	})
-}
-
-
-
-</script>
-     <div class="YTLINK">
-          <br><br>
-          <a href="https://www.youtube.com/channel/UC1xLW-4SoXip6MCM47nyHbw/videos" class="YT_DANI098" lang="HU">DANI098 YouTube</a>
-          <br>
-          <a href="https://www.youtube.com/c/UZX_Official/videoss" class="YT_UZX" lang="HU">UZX YouTube</a>
-
-          <br><br>
-        
-          <div id="progress">
-          </div>
-          <div id="result">
-          </div>
-      </div>
- 
-      
-  <script>   /*Egyéb Console Parancsok*/
-    function reloadpage() {
-      
-      location.reload()
-    };
-    
-    function get_all_user_inpage() {
-
-      const countEl = document.getElementById('count')
-      fetch('https://api.countapi.xyz/get/UZX/youtubechannel')
-    .then(res => res.json())
-    .then(res => {
-      countEl.innerHTML = res.value;
-    })
-    console.log(countEl)
-  }  
-    function savedate() {
-      var myfile = new File(
-
-        ["Weboldal verzió:  V0.8, utoljaraFrissitve:  2022. 11.17"],
-        "Weboldal mentes.txt",
-        {type: "text/plain;charset=8"}
-      );
-      saveAs(myfile)
-    }
-
-
-
-
-   
-</script>
+            <div id="progress">
+            </div>
+            <div id="result">
+            </div>
+        </div>
+            <br><br>
+            <div class="jatekfrissitesek" id="dark-change"><h2 id="dark-change" lang="HU">Weboldal leírás</h2>
+            <h3>Fejlesztők:</h3>
+            UZX_Official
+            <br><br>
+            <h3>Tesztelők:</h3>
+            Iza
+            </div>
+           
 </body>
-<script src="JS/notification.js"></script>
 </html>

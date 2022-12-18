@@ -1,6 +1,6 @@
 <!---
 
-  Weboldal Verzió: V0.8
+  Weboldal Verzió: V1.0
   [A Weboldal még nincs kész]
 
   Készítette UZX
@@ -24,15 +24,45 @@
     <link rel="stylesheet" href="css/background.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
 </head>
 <body>
+  <div class="menu">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="index.html">The Zombie Island</a></div>
+      <div class="alapkep">
+        <img src="Képek/BETA6.png" alt="A Játét és Weboldal Beta verzióban van" width="50" class="alapkep-img"/></div>
+        <ul class="links">
+          <li><a href="index.html">Főoldal</a></li>
+          <li><a href="Játékfrissítések.html">Játék frissítések</a></li>
+          <li><a href="jatekletoltese.html">Játék letöltése</a></li>
+          <li><a href="ellenőrzés.html">Ellenőrzés</a></li>
+          <li><a href="Weboldal leírás.html" >Weboldal leírás</a>
+          <li>
+              <a href="login.php"><ion-icon name="log-in-outline"></ion-icon> Bejelentkezés</a><a href="signup.html"><ion-icon name="add-outline"></ion-icon> Regisztráció</a>
+          </li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Írjon be valamit a kereséshez..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+<br><br><br><br>
 <div class="loader">
           
   <img src="Képek/loading.gif" alt="" width="180">
   <h2 translate="yes">Oldal Betöltése...</h2></div>
   <script src="JS/load.js" charset="utf-8"></script>
-    
+
    
   <!-- DARK MODE (már nem az) -->
   <style>
@@ -256,25 +286,8 @@ html::-webkit-scrollbar {
 
   </style>
 
-  <div class="alap" id="dark-change">Játékfrissítések</div>
-      <div class="alapkep">
-      <img src="Képek/BETA6.png" alt="A Játét és Weboldal Béta verzióban van" width="150" class="alapkep-img"/></div>
-      <div class="Verzio">
-        <h1 id="Verzió"></h1>
-        <h1 id="Dátum"></h1></div>  
-        <script src="JS/Verzio.js"></script>
-    
-          <div class="EgyébGombok" id="dark-change">
   
-            
-            <a href="index.html" >Főoldal</a>
-            <br><br>
-            <a href="jatekletoltese.html">Játék letöltése</a>
-            <br><br>
-            <a href="Játékfrissítések.html">Játék Frissítések</a>
-            <div class="bejelentkezes">
-              <a href="login.php"><ion-icon name="log-in-outline"></ion-icon>Bejelentkezés</a> <a href="signup.html"><ion-icon name="add-outline"></ion-icon>Regisztráció</a>
-          </div></div>
+</div>
             <br><br>
             <div class="YTLINK">
 

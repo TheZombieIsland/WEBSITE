@@ -70,11 +70,12 @@
 
 
 
-    .Verzio h1{
+    .Verzio {
       text-align: center;
       float: center;
       align-items: center;
       align-self: center;
+      
     }
 
     .datareload {
@@ -101,7 +102,6 @@
       float: center;
       text-align: center ;
       margin-top: 20px;
-      
 
     }
 

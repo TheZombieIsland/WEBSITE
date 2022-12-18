@@ -2,14 +2,14 @@
 
 		var alpha=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V'
 				   ,'W','X','Y','Z','1','2','3','4','5','6','7','8','9','0','a','b','c','d','e','f','g','h','i',
-				   'j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','#'];
+				   'j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','#','&',"@"];
 
-		var a=alpha[Math.floor(Math.random()*62)];
-		var b=alpha[Math.floor(Math.random()*62)];
-		var c=alpha[Math.floor(Math.random()*62)];
-		var d=alpha[Math.floor(Math.random()*62)];
-		var e=alpha[Math.floor(Math.random()*62)];
-		var f=alpha[Math.floor(Math.random()*62)];
+		var a=alpha[Math.floor(Math.random()*65)];
+		var b=alpha[Math.floor(Math.random()*65)];
+		var c=alpha[Math.floor(Math.random()*65)];
+		var d=alpha[Math.floor(Math.random()*65)];
+		var e=alpha[Math.floor(Math.random()*65)];
+		var f=alpha[Math.floor(Math.random()*65)];
 
 		var sum=a + b + c + d + e + f;
 
@@ -27,7 +27,7 @@
 			return true;
 		}
 		else {
-			alert("Kérjük, adjon meg egy érvényes captcha-t");
+			alert("Kérjük, adjon meg egy érvényes kódot");
 			return false;
 		}
 	}

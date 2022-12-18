@@ -1,5 +1,5 @@
   /*
-    Weboldal Verzió: V0.8
+    Weboldal Verzió: V1.0
   [A Weboldal még nincs kész]
 
     Készítette UZX
@@ -14,7 +14,7 @@
 
     const verzio = {
       v   : " 1.0",
-      utoljaraFrissitve: " 2022. 12.16"
+      utoljaraFrissitve: " 2022. 12. 18"
       
   };
 
